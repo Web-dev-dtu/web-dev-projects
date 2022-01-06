@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Info</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <h1>My Contact Details</h1>
     <ul>
@@ -14,5 +16,20 @@
         <li><a href="https://www.linkedin.com/in/nissan-kumar-554a7a224/">Linkedin</a></li>
         <li>Gmail : nissankumar9001@gmail.com</li>
     </ul>
+
+    <form action="mailto:nissankumar9001@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input name="Your Name" type="text">
+        <br>
+        <label>Your Email:</label>
+        <input type="email" name="Your Email" id="">
+        <br>
+        <label>Your Message:</label>
+        <br>
+        <textarea name="Your Message" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+
 </body>
 </html>
