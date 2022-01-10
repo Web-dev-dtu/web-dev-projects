@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.top-container{
+    background-color: #B1D0E0;
+    padding: 70px 0px 0px 0px;
+    position: relative;
+}
+
+.middle-container .profile img{
+    width: 25%;
+}
+
+.skill-row{
+    display: inline-block;
+    width: 50%;
+    margin: 50px;
+    text-align: left;
+}
+
+#skill-img-1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+#skill-img-2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+#pro{
+    text-decoration: underline;
+}
+
+p{
+    margin:25px auto 0px auto;
+}
+
+h1{
+    color: #406882;
+    font-size: 5.625rem;
+    font-family: 'Oooh Baby', cursive;
+}
+
+.programmer-text{
+    color: #406882;
+    font-size: 2.5rem;
+    /* font-weight: normal; */
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#406882;
+    margin: 50px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #6998AB;
+}
+
+
+.btn{
+    color:#406882;
+}
+#bottom-cloud{
+    position: absolute;
+    left:220px;
+}
+#top-cloud{
+    position:absolute;
+    top:40px;
+    right:225px;
+}
+
+#profile-picture{
+    margin-top: 50px;
+}
+
+hr{
+    border-style: dotted none none none;
+    width: 3%;
+    border-color: grey;
+    border-width: 5px;
+    height: 0px;
+    margin: 50px auto 80px auto;
+}
+
+.profile{
+    margin-bottom: 100px;
+}
+.contact-me{
+    display: inline-block;
+    width: 50%;
+}
+.contact-me p{
+    margin: 50px;
+}
+
+.bottom-container{
+    margin-top: 50px;
+    background-color: #B1D0E0;
+    padding: 50px;
+}
+
+.bottom-container p{
+    color: white;
+    font-size: small;
+}
+
+a{
+    color: #1A374D;
+    text-decoration: none;
+    margin: 0px 30px;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #B1D0E0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #1A374D;
+    box-shadow: 5px 5px 4px #406882;
+}
+.btn:hover{
+    color: #406882;
+    background-color: #8dc6e0;
+}
+
+#linkedin{
+    padding-left: 26px;
+    background: url(../images/linkedin.png) left center no-repeat ;
+    background-size: 21px;
+}
+#instagram{
+    padding-left: 26px;
+    background: url(../images/instagram.png) left center no-repeat ;
+    background-size: 21px;
+}
+#github{
+    padding-left: 26px;
+    background: url(../images/github.png) left center no-repeat ;
+    background-size: 21px;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
