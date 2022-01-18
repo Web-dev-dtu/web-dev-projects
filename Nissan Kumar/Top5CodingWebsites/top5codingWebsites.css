@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F4EEFF;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 15px;
+    height: 100vh;
+    column-gap: 10px;
+    color: #424874;
+}
+
+.header{
+    background-color: #DCD6F7;
+    display: flex;
+    color: #424874;
+
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    grid-column-start: 1;
+    grid-column-end: 21;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.container{
+    border-radius: 6px;
+    display: flex;
+    align-items: baseline;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px #424874;
+    padding: 10px 20px;
+}
+
+#container-1{
+    background-color: rgb(209, 130, 233);
+    grid-column-start: 2;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#container-2{
+    grid-column-start: 9;
+    background-color: rgb(247, 151, 226);
+    grid-column-end: 16;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    width: 85%;
+    justify-self: center;
+    height: 63%;
+}
+
+#container-3{
+    background-color: rgb(143, 183, 236);
+    grid-column-start: 16;
+    grid-column-end: 21;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    height: 90%;
+    align-self:baseline;
+    width: 82%;
+    justify-self: center;
+}
+#container-4{
+    background-color: rgb(217, 165, 247);
+    grid-column-start: 8;
+    grid-column-end: 16;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    height: 80%;
+    align-self: center;
+    width: 90%;
+    justify-self: center;
+}
+#container-5{
+    background-color: rgb(168, 194, 228);
+    grid-column-start: 1;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    height: 87%;
+    align-self: baseline;
+    width: 85%;
+    justify-self: center;
+}
+
+/* grid styling ends here */
+
+.logo{
+    width: 30px;
+    margin: 5px 10px;
+}
+
+.header-item{
+    align-self: flex-start;
+    color: #424874;
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#leetcode-img{
+    background-color: rgb(216, 229, 247);
+}
+
+a:hover{
+    text-decoration: underline;
+}
