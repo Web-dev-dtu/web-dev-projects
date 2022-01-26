@@ -180,8 +180,8 @@ p{
         transform: rotate(0);
         width: 70%;
     }
-    body section#title{
-        text-align: center;
+    #title .container-fluid{
+        text-align: center ;
         /* doubt */
     }
 }
